@@ -9,13 +9,13 @@ public class Tp3 {
             System.out.println("Fournissez les noms des fichiers d'entrée et de sortie.");
             return;
         }
-        String inputFileCarte= "src/testsTP3E19/" + args[0];
-        String outputFileArm = "/testsTP3E19/" + args[1];
+        String inputFileCarte= "./src/testsTP3E19/" + args[0];
+        String outputFileArm = "./src/testsTP3E19/" + args[1];
         try (FileReader fileReader = new FileReader(inputFileCarte);
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             String line;
             while ((line = bufferedReader .readLine()) != null) {
-                if (line.length() == 2){
+                if (line.length() <= 2 && (Character.isLetter(line.charAt(0)))){
                    sommet.add(line);
                 }
                 else if(Character.isLetter(line.charAt(0))) {
@@ -26,8 +26,7 @@ public class Tp3 {
                     String nomArete = newLine[0];
                     String sommetDepart = newLine[1];
                     String sommetArrivee = newLine[2];
-                    int poidArete = Integer.parseInt(newLine[3]);
-
+                    int poidsArete = Integer.parseInt(newLine[3]);
                 }
             }
         } catch (IOException e) {
