@@ -27,4 +27,5 @@ public class Carte {
     public void setRue(ArrayList<Rue> rue) {
         this.rue = rue;
     }
+
 }

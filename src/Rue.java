@@ -1,4 +1,4 @@
-public class Rue {
+public class Rue implements Comparable<Rue>{
     private String nomArete;
     private Sommet sommetDepart;
     private Sommet sommetArrivee;
@@ -41,5 +41,9 @@ public class Rue {
 
     public void setPoidsArete(int poidsArete) {
         this.poidsArete = poidsArete;
+    }
+    @Override
+    public int compareTo(Rue other) {
+        return Integer.compare(this.poidsArete, other.poidsArete);
     }
 }
