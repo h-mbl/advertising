@@ -1,4 +1,3 @@
-import java.util.Collection;
 import java.util.List;
 
 public class Sommet  {
@@ -49,9 +48,13 @@ public class Sommet  {
             System.out.println(rue.getNomArete());
         }
     }
+
     @Override
     public String toString() {
-        return "Personne [nom=" + sommet + ", visited=" + visited  + "]";
+        return "Sommet{" +
+                "sommet='" + sommet + '\'' +
+                ", visited=" + visited +
+                ", rueConnecte=" + rueConnecte +
+                '}';
     }
-
 }
