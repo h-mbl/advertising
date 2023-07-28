@@ -1,6 +1,10 @@
-public class Sommet {
+import java.util.Collection;
+import java.util.List;
+
+public class Sommet  {
     private String sommet;
     private boolean visited;
+    private List<Rue> rueConnecte;
 
     public String getSommet() {
         return sommet;
@@ -21,5 +25,15 @@ public class Sommet {
     public Sommet(String sommet, boolean visited) {
         this.sommet = sommet;
         this.visited = visited;
+    }
+    public void addRue(Rue rue){
+        rueConnecte.add(rue);
+        System.out.println(rue.getNomArete());
+    }
+
+    public void printRue(){
+        for (Rue rue: rueConnecte){
+            System.out.println(rue.getNomArete());
+        }
     }
 }

@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public class Tp3 {
     static List<Sommet> listSommet = new ArrayList<>();
@@ -30,11 +32,22 @@ public class Tp3 {
                     Sommet sommetArrivee = new Sommet(newLine[2], false);
                     int poidsArete = Integer.parseInt(newLine[3]);
                     Rue rue = new Rue(nomArete,sommetDepart,sommetArrivee,poidsArete);
+                    for (Sommet sommet: listSommet) {
+                        if (sommet.getSommet().equals(sommetArrivee.getSommet())){
+                            sommet.addRue(rue);
+                        }
+                    }
+
                     listArete.add(rue);
                 }
             }
-            Carte carte = new Carte((ArrayList<Sommet>) listSommet, (ArrayList<Rue>) listArete);
 
+
+            Carte carte = new Carte((ArrayList<Sommet>) listSommet, (ArrayList<Rue>) listArete);
+            Sommet startSommet = listSommet.get(0);
+            startSommet.setVisited(true) ;
+            PriorityQueue<Sommet> sommetPriorityQueue = new PriorityQueue<>();
+            /*sommetPriorityQueue.addAll((Collection<? extends Sommet>) startSommet);*/
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
