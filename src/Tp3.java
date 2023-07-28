@@ -1,4 +1,5 @@
 import java.io.*;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -19,8 +20,8 @@ public class Tp3 {
             String line;
             while ((line = bufferedReader .readLine()) != null) {
                 if (line.length() <= 2 && (Character.isLetter(line.charAt(0)))){
-                    line = line.replace("\\s+","");
-                    Sommet sommet= new Sommet(line, false);
+                    line = line.replace(" ","");
+                    Sommet sommet= new Sommet(line, false, new ArrayList<Rue>());
                     listSommet.add(sommet);
                 }
                 else if(Character.isLetter(line.charAt(0))) {
@@ -34,18 +35,19 @@ public class Tp3 {
                     int poidsArete = Integer.parseInt(newLine[3]);
                     Rue rue = new Rue(nomArete,sommetDepart,sommetArrivee,poidsArete);
                     for (Sommet sommet: listSommet) {
-                        System.out.println(sommet.getSommet().length());
-                        System.out.println(sommetDepart.getSommet().length());
-                        System.out.println("##############");
                         if (sommet.getSommet().equals(sommetDepart.getSommet())){
-                            System.out.println(sommet.getSommet());
-                            System.out.println(sommetDepart.getSommet());
-                            System.out.println("---------------");
                             sommet.addRue(rue);
+                            rue.setSommetDepart(sommet);
+                            break;
                         }
                     }
-                    //System.out.println(sommetDepart.getRueConnecte());
-
+                    for (Sommet sommet: listSommet) {
+                        if (sommet.getSommet().equals(sommetArrivee.getSommet())){
+                            sommet.addRue(rue);
+                            rue.setSommetArrivee(sommet);
+                            break;
+                        }
+                    }
                     listArete.add(rue);
                 }
             }

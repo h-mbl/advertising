@@ -3,12 +3,21 @@ public class Rue implements Comparable<Rue>{
     private Sommet sommetDepart;
     private Sommet sommetArrivee;
     private int poidsArete;
+    private boolean visited;
 
     public Rue(String nomArete, Sommet sommetDepart, Sommet sommetArrivee, int poidsArete) {
         this.nomArete = nomArete;
         this.sommetDepart = sommetDepart;
         this.sommetArrivee = sommetArrivee;
         this.poidsArete = poidsArete;
+    }
+
+    public boolean isVisited() {
+        return visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
     }
 
     public String getNomArete() {
@@ -44,6 +53,29 @@ public class Rue implements Comparable<Rue>{
     }
     @Override
     public int compareTo(Rue other) {
-        return Integer.compare(this.poidsArete, other.poidsArete);
+        int weightComparison = Integer.compare(this.poidsArete, other.poidsArete);
+        if (weightComparison != 0) {
+            return weightComparison; // If weights are different, return the comparison result
+        } else {
+            // If weights are the same, compare sommetArrivee.getSommet() values
+            int sommetArriveeComparison = this.sommetArrivee.getSommet().compareTo(other.sommetArrivee.getSommet());
+
+            if (sommetArriveeComparison != 0) {
+                return sommetArriveeComparison; // If sommetArrivee values are different, return the comparison result
+            } else {
+                // If both poidsArete and sommetArrivee are the same, compare sommetDepart.getSommet() values
+                return this.sommetDepart.getSommet().compareTo(other.sommetDepart.getSommet());
+            }
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Rue{" +
+                "nomArete='" + nomArete + '\'' +
+                ", sommetDepart=" + sommetDepart.getSommet() +
+                ", sommetArrivee=" + sommetArrivee.getSommet() +
+                ", poidsArete=" + poidsArete +
+                '}';
     }
 }

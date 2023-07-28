@@ -7,6 +7,15 @@ public class Sommet  {
 
     private List<Rue> rueConnecte;
 
+    public Sommet() {
+    }
+
+    public Sommet(String sommet, boolean visited, List<Rue> rueConnecte) {
+        this.sommet = sommet;
+        this.visited = visited;
+        this.rueConnecte = rueConnecte;
+    }
+
     public String getSommet() {
         return sommet;
     }
@@ -33,7 +42,6 @@ public class Sommet  {
     }
     public void addRue(Rue rue){
         rueConnecte.add(rue);
-        System.out.println(rue.getNomArete());
     }
 
     public void printRue(){
