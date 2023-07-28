@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="285a7816-ea20-42e9-bb40-a22fedf95e1e" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sommet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tp3.java" afterDir="false" />
     </list>
-    <list id="08b47814-b5fe-4bb9-9e56-06d44d883906" name="Changes by moham" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sommet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tp3.java" afterDir="false" />
-    </list>
+    <list id="08b47814-b5fe-4bb9-9e56-06d44d883906" name="Changes by moham" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,27 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Tp3.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="285a7816-ea20-42e9-bb40-a22fedf95e1e" />
-        <range start1="3" end1="3" start2="4" end2="5" changelist="285a7816-ea20-42e9-bb40-a22fedf95e1e" />
-        <range start1="32" end1="32" start2="34" end2="40" changelist="08b47814-b5fe-4bb9-9e56-06d44d883906" />
-        <range start1="35" end1="35" start2="43" end2="45" changelist="08b47814-b5fe-4bb9-9e56-06d44d883906" />
-        <range start1="36" end1="37" start2="46" end2="50" changelist="285a7816-ea20-42e9-bb40-a22fedf95e1e" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Sommet.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="4" changelist="285a7816-ea20-42e9-bb40-a22fedf95e1e" />
-        <range start1="3" end1="3" start2="6" end2="7" changelist="08b47814-b5fe-4bb9-9e56-06d44d883906" />
-        <range start1="24" end1="24" start2="28" end2="38" changelist="08b47814-b5fe-4bb9-9e56-06d44d883906" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TAYQ5v2syuXxdz6DcuSACcTJwz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,6 +43,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MBL/Documents/GitHub/advertising&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -86,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1690487352194</updated>
       <workItem from="1690496723336" duration="1395000" />
+      <workItem from="1690516463101" duration="691000" />
+      <workItem from="1690562952006" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1690496774156</created>

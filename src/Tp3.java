@@ -19,6 +19,7 @@ public class Tp3 {
             String line;
             while ((line = bufferedReader .readLine()) != null) {
                 if (line.length() <= 2 && (Character.isLetter(line.charAt(0)))){
+                    line = line.replace("\\s+","");
                     Sommet sommet= new Sommet(line, false);
                     listSommet.add(sommet);
                 }
@@ -33,14 +34,22 @@ public class Tp3 {
                     int poidsArete = Integer.parseInt(newLine[3]);
                     Rue rue = new Rue(nomArete,sommetDepart,sommetArrivee,poidsArete);
                     for (Sommet sommet: listSommet) {
-                        if (sommet.getSommet().equals(sommetArrivee.getSommet())){
+                        System.out.println(sommet.getSommet().length());
+                        System.out.println(sommetDepart.getSommet().length());
+                        System.out.println("##############");
+                        if (sommet.getSommet().equals(sommetDepart.getSommet())){
+                            System.out.println(sommet.getSommet());
+                            System.out.println(sommetDepart.getSommet());
+                            System.out.println("---------------");
                             sommet.addRue(rue);
                         }
                     }
+                    //System.out.println(sommetDepart.getRueConnecte());
 
                     listArete.add(rue);
                 }
             }
+
 
 
             Carte carte = new Carte((ArrayList<Sommet>) listSommet, (ArrayList<Rue>) listArete);

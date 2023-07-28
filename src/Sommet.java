@@ -4,11 +4,16 @@ import java.util.List;
 public class Sommet  {
     private String sommet;
     private boolean visited;
+
     private List<Rue> rueConnecte;
 
     public String getSommet() {
         return sommet;
     }
+    public List<Rue> getRueConnecte() {
+        return rueConnecte;
+    }
+
 
     public void setSommet(String sommet) {
         this.sommet = sommet;
@@ -36,4 +41,9 @@ public class Sommet  {
             System.out.println(rue.getNomArete());
         }
     }
+    @Override
+    public String toString() {
+        return "Personne [nom=" + sommet + ", visited=" + visited  + "]";
+    }
+
 }
