@@ -2,13 +2,13 @@ public class Rue {
     private String nomArete;
     private String sommetDepart;
     private String sommetArrivee;
-    private int poidAret;
+    private int poidsArete;
 
-    public Rue(String nomArete, String sommetDepart, String sommetArrivee, int poidAret) {
+    public Rue(String nomArete, String sommetDepart, String sommetArrivee, int poidsArete) {
         this.nomArete = nomArete;
         this.sommetDepart = sommetDepart;
         this.sommetArrivee = sommetArrivee;
-        this.poidAret = poidAret;
+        this.poidsArete = poidsArete;
     }
 
     public String getNomArete() {
@@ -35,11 +35,11 @@ public class Rue {
         this.sommetArrivee = sommetArrivee;
     }
 
-    public int getPoidAret() {
-        return poidAret;
+    public int getPoidsArete() {
+        return poidsArete;
     }
 
-    public void setPoidAret(int poidAret) {
-        this.poidAret = poidAret;
+    public void setPoidsArete(int poidsArete) {
+        this.poidsArete = poidsArete;
     }
 }

@@ -2,19 +2,20 @@ import java.util.ArrayList;
 
 
 public class Carte {
-    private ArrayList<String> sommets;
+    private boolean visited;
+    private ArrayList<Sommet> sommets;
     private ArrayList<Rue> rue;
 
-    public Carte(ArrayList<String> sommets, ArrayList<Rue> rue) {
+    public Carte(ArrayList<Sommet> sommets, ArrayList<Rue> rue) {
         this.sommets = sommets;
         this.rue = rue;
     }
 
-    public ArrayList<String> getSommets() {
+    public ArrayList<Sommet> getSommets() {
         return sommets;
     }
 
-    public void setSommets(ArrayList<String> sommets) {
+    public void setSommets(ArrayList<Sommet> sommets) {
         this.sommets = sommets;
     }
 
