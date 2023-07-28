@@ -15,6 +15,7 @@ public class Carte {
         return sommets;
     }
 
+
     public void setSommets(ArrayList<Sommet> sommets) {
         this.sommets = sommets;
     }

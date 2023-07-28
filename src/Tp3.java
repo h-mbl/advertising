@@ -26,8 +26,8 @@ public class Tp3 {
                     line = line.trim().replaceAll("\\s+", " ");
                     String[] newLine = line.split(" ");
                     String nomArete = newLine[0];
-                    String sommetDepart = newLine[1];
-                    String sommetArrivee = newLine[2];
+                    Sommet sommetDepart = new Sommet(newLine[1], false);
+                    Sommet sommetArrivee = new Sommet(newLine[2], false);
                     int poidsArete = Integer.parseInt(newLine[3]);
                     Rue rue = new Rue(nomArete,sommetDepart,sommetArrivee,poidsArete);
                     listArete.add(rue);

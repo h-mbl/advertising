@@ -1,10 +1,10 @@
 public class Rue {
     private String nomArete;
-    private String sommetDepart;
-    private String sommetArrivee;
+    private Sommet sommetDepart;
+    private Sommet sommetArrivee;
     private int poidsArete;
 
-    public Rue(String nomArete, String sommetDepart, String sommetArrivee, int poidsArete) {
+    public Rue(String nomArete, Sommet sommetDepart, Sommet sommetArrivee, int poidsArete) {
         this.nomArete = nomArete;
         this.sommetDepart = sommetDepart;
         this.sommetArrivee = sommetArrivee;
@@ -19,19 +19,19 @@ public class Rue {
         this.nomArete = nomArete;
     }
 
-    public String getSommetDepart() {
+    public Sommet getSommetDepart() {
         return sommetDepart;
     }
 
-    public void setSommetDepart(String sommetDepart) {
+    public void setSommetDepart(Sommet sommetDepart) {
         this.sommetDepart = sommetDepart;
     }
 
-    public String getSommetArrivee() {
+    public Sommet getSommetArrivee() {
         return sommetArrivee;
     }
 
-    public void setSommetArrivee(String sommetArrivee) {
+    public void setSommetArrivee(Sommet sommetArrivee) {
         this.sommetArrivee = sommetArrivee;
     }
 
