@@ -23,10 +23,6 @@ public class Sommet  {
     }
 
 
-    public void setSommet(String sommet) {
-        this.sommet = sommet;
-    }
-
     public boolean isVisited() {
         return visited;
     }

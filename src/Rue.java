@@ -24,10 +24,6 @@ public class Rue implements Comparable<Rue>{
         return nomArete;
     }
 
-    public void setNomArete(String nomArete) {
-        this.nomArete = nomArete;
-    }
-
     public Sommet getSommetDepart() {
         return sommetDepart;
     }
@@ -48,9 +44,7 @@ public class Rue implements Comparable<Rue>{
         return poidsArete;
     }
 
-    public void setPoidsArete(int poidsArete) {
-        this.poidsArete = poidsArete;
-    }
+
     @Override
     public int compareTo(Rue other) {
         int weightComparison = Integer.compare(this.poidsArete, other.poidsArete);

@@ -1,0 +1,10 @@
+a
+b
+e
+d
+rue0  a  b  1
+rue3  b  e  2
+rue3  e  c  4
+rue1  a  d  4
+-----
+11
