@@ -39,12 +39,6 @@ public class Sommet  {
         rueConnecte.add(rue);
     }
 
-    public void printRue(){
-        for (Rue rue: rueConnecte){
-            System.out.println(rue.getNomArete());
-        }
-    }
-
     @Override
     public String toString() {
         return "Sommet{" +

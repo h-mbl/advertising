@@ -49,15 +49,13 @@ public class Rue implements Comparable<Rue>{
     public int compareTo(Rue other) {
         int weightComparison = Integer.compare(this.poidsArete, other.poidsArete);
         if (weightComparison != 0) {
-            return weightComparison; // If weights are different, return the comparison result
+            return weightComparison;
         } else {
-            // If weights are the same, compare sommetArrivee.getSommet() values
             int sommetArriveeComparison = this.sommetArrivee.getSommet().compareTo(other.sommetArrivee.getSommet());
 
             if (sommetArriveeComparison != 0) {
-                return sommetArriveeComparison; // If sommetArrivee values are different, return the comparison result
+                return sommetArriveeComparison;
             } else {
-                // If both poidsArete and sommetArrivee are the same, compare sommetDepart.getSommet() values
                 return this.sommetDepart.getSommet().compareTo(other.sommetDepart.getSommet());
             }
         }
