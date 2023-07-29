@@ -1,10 +1,44 @@
 a
 b
+c
+h
+i
+j
+k
+p
+q
+v
+u
+t
+s
+n
+g
+f
 e
+m
 d
-rue0  a  b  1
-rue3  b  e  2
-rue3  e  c  4
-rue1  a  d  4
+l
+o
+rue0  a  h  23
+rue0  a  b  42
+rue1  b  c  8
+rue3  h  i  68
+rue3  i  j  27
+rueA  j  k  57
+rueD  k  r  17
+rue3  i  p  64
+rueV  p  q  15
+rueU  q  v  45
+rueZ  v  u  34
+rueZ  u  t  52
+rueZ  t  s  29
+rueZ  v  n  55
+rue3  n  g  31
+rue2  g  f  62
+rue1  f  e  5
+rue1  e  m  25
+rue1  e  d  49
+rue1  d  l  12
+rueF  l  o  38
 -----
-11
+758

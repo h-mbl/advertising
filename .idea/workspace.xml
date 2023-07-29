@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="285a7816-ea20-42e9-bb40-a22fedf95e1e" name="Changes" comment="algo complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sommet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tp3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testsTP3E19/exemple.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/testsTP3E19/exemple.txt" afterDir="false" />
     </list>
@@ -59,7 +57,7 @@
     <configuration name="TP3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Tp3" />
       <module name="advertising" />
-      <option name="PROGRAM_PARAMETERS" value="carte5.txt exemple.txt" />
+      <option name="PROGRAM_PARAMETERS" value="carte10.txt exemple.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

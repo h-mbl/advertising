@@ -67,7 +67,7 @@ public class Tp3 {
             }
             int compteur = 0;
             int poids = 0;
-            while (compteur < listArete.size() && !(ruePriorityQueue.isEmpty()) ) {
+            while (!(ruePriorityQueue.isEmpty()) ) {
                 Rue ruePrise = ruePriorityQueue.poll();
                 compteur +=1;
                 if ((ruePrise.getSommetArrivee().isVisited()) && (ruePrise.getSommetDepart().isVisited())) {
@@ -106,7 +106,6 @@ public class Tp3 {
                 outputPrint.add(ruePrise.getNomArete() +"  "+ ruePrise.getSommetDepart().getSommet() +
                         "  "+ ruePrise.getSommetArrivee().getSommet()+ "  " + ruePrise.getPoidsArete());
             }
-            System.out.println(poids);
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile, true))) {
                 for (String element : outputPrint) {
                     writer.write(element);
