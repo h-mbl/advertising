@@ -52,12 +52,12 @@ public class Rue implements Comparable<Rue>{
         if (weightComparison != 0) {
             return weightComparison;
         } else {
-            int sommetArriveeComparison = this.sommetArrivee.getSommet().compareTo(other.sommetArrivee.getSommet());
+            int sommetArriveeComparison = this.sommetArrivee.getNomSommet().compareTo(other.sommetArrivee.getNomSommet());
 
             if (sommetArriveeComparison != 0) {
                 return sommetArriveeComparison;
             } else {
-                return this.sommetDepart.getSommet().compareTo(other.sommetDepart.getSommet());
+                return this.sommetDepart.getNomSommet().compareTo(other.sommetDepart.getNomSommet());
             }
         }
     }
@@ -66,8 +66,8 @@ public class Rue implements Comparable<Rue>{
     public String toString() {
         return "Rue{" +
                 "nomArete='" + nomArete + '\'' +
-                ", sommetDepart=" + sommetDepart.getSommet() +
-                ", sommetArrivee=" + sommetArrivee.getSommet() +
+                ", sommetDepart=" + sommetDepart.getNomSommet() +
+                ", sommetArrivee=" + sommetArrivee.getNomSommet() +
                 ", poidsArete=" + poidsArete +
                 '}';
     }

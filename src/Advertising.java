@@ -44,14 +44,14 @@ public class Advertising {
                     Rue rue = new Rue(nomArete,sommetDepart,sommetArrivee,poidsArete);
                     //ajoute a chaque rue (arête)ses deux sommets(de départ et d'arrivé)
                     for (Sommet sommet: listSommet) {
-                        if (sommet.getSommet().equals(sommetDepart.getSommet())){
+                        if (sommet.getNomSommet().equals(sommetDepart.getNomSommet())){
                             sommet.addRue(rue);
                             rue.setSommetDepart(sommet);
                             break;
                         }
                     }
                     for (Sommet sommet: listSommet) {
-                        if (sommet.getSommet().equals(sommetArrivee.getSommet())){
+                        if (sommet.getNomSommet().equals(sommetArrivee.getNomSommet())){
                             sommet.addRue(rue);
                             rue.setSommetArrivee(sommet);
                             break;
@@ -85,14 +85,14 @@ public class Advertising {
                try (BufferedWriter writerSommet = new BufferedWriter(new FileWriter(outputFile, true))) {
                    //la condition permet écrire les sommets selon leurs ordres de lecture et si un sommet de depart
                    //est déjà lu alors on écrit le sommet d'arrivé
-                   String printAreteString = ruePrise.getSommetDepart().getSommet();
+                   String printAreteString = ruePrise.getSommetDepart().getNomSommet();
                    boolean b = !(printArete.contains(printAreteString));
                    if (b) {
                         printArete.add(printAreteString);
                         writerSommet.write(printAreteString);
                         writerSommet.newLine();
                    }else{
-                       printAreteString=ruePrise.getSommetArrivee().getSommet();
+                       printAreteString=ruePrise.getSommetArrivee().getNomSommet();
                        printArete.add(printAreteString);
                        writerSommet.write(printAreteString);
                        writerSommet.newLine();
@@ -124,8 +124,8 @@ public class Advertising {
                 //ajoute les informations lies a la rue dans une liste afin d'obtenir une sortie:
                 //nom sommet + rue a chaque itération
                 //mais sommets  ensuite toutes les rues
-                outputPrint.add(ruePrise.getNomArete() +"  "+ ruePrise.getSommetDepart().getSommet() +
-                        "  "+ ruePrise.getSommetArrivee().getSommet()+ "  " + ruePrise.getPoidsArete());
+                outputPrint.add(ruePrise.getNomArete() +"  "+ ruePrise.getSommetDepart().getNomSommet() +
+                        "  "+ ruePrise.getSommetArrivee().getNomSommet()+ "  " + ruePrise.getPoidsArete());
             }
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile, true))) {
                 writer.write("---");

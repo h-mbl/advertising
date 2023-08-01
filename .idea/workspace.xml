@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="285a7816-ea20-42e9-bb40-a22fedf95e1e" name="Changes" comment="algo complete">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advertising.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sommet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advertising.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/arm9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/arm9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/carte9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutInFile/carte9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testsTP3E19/exemple.txt" beforeDir="false" />
     </list>
     <list id="aac33dc2-9a8a-4be5-b8c3-d2afc46c94a9" name="Changes by hervé_ " comment="" />
     <list id="08b47814-b5fe-4bb9-9e56-06d44d883906" name="Changes by moham" comment="" />
@@ -108,7 +83,7 @@
       <workItem from="1690761260365" duration="1307000" />
       <workItem from="1690762795932" duration="9067000" />
       <workItem from="1690822604687" duration="593000" />
-      <workItem from="1690900390976" duration="971000" />
+      <workItem from="1690900390976" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1690496774156</created>

@@ -2,7 +2,7 @@
 import java.util.List;
 
 public class Sommet  {
-    private String sommet;
+    private String nomSommet;
     private boolean visited;
 
     private List<Rue> rueConnecte;
@@ -10,15 +10,15 @@ public class Sommet  {
     public Sommet() {
     }
 
-    public Sommet(String sommet, boolean visited, List<Rue> rueConnecte) {
+    public Sommet(String nomSommet, boolean visited, List<Rue> rueConnecte) {
         //nom du sommet
-        this.sommet = sommet;
+        this.nomSommet = nomSommet;
         this.visited = visited;
         this.rueConnecte = rueConnecte;
     }
 
-    public String getSommet() {
-        return sommet;
+    public String getNomSommet() {
+        return nomSommet;
     }
     public List<Rue> getRueConnecte() {
         return rueConnecte;
@@ -33,8 +33,8 @@ public class Sommet  {
         this.visited = visited;
     }
 
-    public Sommet(String sommet, boolean visited) {
-        this.sommet = sommet;
+    public Sommet(String nomSommet, boolean visited) {
+        this.nomSommet = nomSommet;
         this.visited = visited;
     }
     public void addRue(Rue rue){
@@ -44,7 +44,7 @@ public class Sommet  {
     @Override
     public String toString() {
         return "Sommet{" +
-                "sommet='" + sommet + '\'' +
+                "sommet='" + nomSommet + '\'' +
                 ", visited=" + visited +
                 ", rueConnecte=" + rueConnecte +
                 '}';
