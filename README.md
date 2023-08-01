@@ -18,7 +18,7 @@ A street is identified by a set of places, and both streets and sites are repres
 - "a", "b" are the place names
 - "4" is the installation cost
 
-The neighborhood sites are connected to each other by forming a labeled connected graph, where nodes represent the neighborhood sites, edges represent the segments of streets connecting the sites, and edge weights represent the installation cost. The objective of TP3 is to find a minimum spanning tree (ARMin) of the neighborhood site graph using the Prim-Jarnik algorithm. When processing edges of the same weight, the program should consider the alphanumeric order of the edge out vertices. In case of equality of weights and edge "out vertices," the alphanumeric order of the edge "in vertices" should be used.
+The neighborhood sites are connected to each other by forming a labeled connected graph, where nodes represent the neighborhood sites, edges represent the segments of streets connecting the sites, and edge weights represent the installation cost. The objective of Adversiting is to find a minimum spanning tree (ARMin) of the neighborhood site graph using the Prim-Jarnik algorithm. When processing edges of the same weight, the program should consider the alphanumeric order of the edge out vertices. In case of equality of weights and edge "out vertices," the alphanumeric order of the edge "in vertices" should be used.
 
 ## 3. Program Structure
 
