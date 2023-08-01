@@ -1,3 +1,4 @@
+
 import java.util.List;
 
 public class Sommet  {
@@ -10,6 +11,7 @@ public class Sommet  {
     }
 
     public Sommet(String sommet, boolean visited, List<Rue> rueConnecte) {
+        //nom du sommet
         this.sommet = sommet;
         this.visited = visited;
         this.rueConnecte = rueConnecte;
