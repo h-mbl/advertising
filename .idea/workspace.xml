@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="285a7816-ea20-42e9-bb40-a22fedf95e1e" name="Changes" comment="algo complete">
-      <change beforePath="$PROJECT_DIR$/src/Advertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advertising.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sommet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="aac33dc2-9a8a-4be5-b8c3-d2afc46c94a9" name="Changes by hervé_ " comment="" />
     <list id="08b47814-b5fe-4bb9-9e56-06d44d883906" name="Changes by moham" comment="" />
@@ -83,7 +81,11 @@
       <workItem from="1690761260365" duration="1307000" />
       <workItem from="1690762795932" duration="9067000" />
       <workItem from="1690822604687" duration="593000" />
-      <workItem from="1690900390976" duration="1357000" />
+      <workItem from="1690900390976" duration="1554000" />
+      <workItem from="1690943619107" duration="1197000" />
+      <workItem from="1701990279502" duration="2116000" />
+      <workItem from="1703174830994" duration="144000" />
+      <workItem from="1703392441814" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1690496774156</created>
